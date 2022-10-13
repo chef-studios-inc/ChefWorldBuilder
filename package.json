@@ -1,0 +1,23 @@
+{
+  "name": "com.chefstudios.worldbuilder",
+  "version": "0.1.0",
+  "displayName": "Chef World Builder",
+  "description": "World build tools for creating worlds in the chef studios metaverse",
+  "unity": "2021.3",
+  "unityRelease": "8f1",
+  "documentationUrl": "https://theuniverse.gg",
+  "changelogUrl": "https://theuniverse.gg",
+  "licensesUrl": "https://theuniverse.gg",
+  "dependencies": {
+  },
+  "keywords": [
+    "Chef",
+    "World",
+    "Builder"
+  ],
+  "author": {
+    "name": "Chef Studios",
+    "email": "neil@chefstudios.com",
+    "url": "https://www.unity3d.com"
+  }
+}
