@@ -20,7 +20,7 @@ namespace Chef
 
         public static void StartServer()
         {
-            path = Path.Combine(Application.dataPath, "World/Build/world");
+            path = Path.Combine(Application.dataPath, "World/Build/world_build");
             listener = new HttpListener();
             listener.Prefixes.Add("http://127.0.0.1:9009/");
             listener.Start();
