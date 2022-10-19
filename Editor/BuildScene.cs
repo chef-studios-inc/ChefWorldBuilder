@@ -63,6 +63,7 @@ namespace Chef
                                             BuildTarget.WebGL);
 
             FileUtil.MoveFileOrDirectory("Assets/World/WorkDir/world_build", "Assets/World/Build/world_build");
+            Directory.Delete(assetBundleDirectory, true);
 
             EditorSceneManager.OpenScene($"Assets/World/World.unity", OpenSceneMode.Single);
         }
